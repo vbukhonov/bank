@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form method=POST>
+    {% csrf_token %}
+    <table>
+        <tr>
+            <td>User:</td>
+            <td><input type="text" name="user_id"></td>
+        </tr>
+        <tr>
+            <td>Change:</td>
+            <td><input type="text" name="change"></td>
+        </tr>
+    </table>
+    <button type="submit">Change</button>
+
+</form>
+</body>
+</html>

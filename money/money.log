@@ -1,0 +1,6 @@
+2016-09-22 21:18:54.120054 200 user: 1, change: 10.0, update successful.
+2016-09-22 21:19:01.400776 400 Wrong value of argument user_id = 2. No such user in database.
+2016-09-22 21:19:18.614313 400 Wrong value of argument 'user_id'. ValueError: invalid literal for int() with base 10: 'asd'
+2016-09-22 21:19:32.390515 400 user: 1, change: 100.0, update unsuccessful: new value is bigger, than maximum value.
+2016-09-22 21:19:51.150403 400 user: 1, change: -100.0, update unsuccessful: new value is smaller, than minimum value.
+2016-09-22 21:20:02.654012 400 Wrong value of argument 'change'. ValueError: could not convert string to float: 
